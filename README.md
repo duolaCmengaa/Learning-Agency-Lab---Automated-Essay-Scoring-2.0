@@ -23,7 +23,10 @@ From these three matrices, the quadratic weighted kappa is calculated as:
 
 $kappa = 1 - \frac{\sum_{i,j} w_{i,j} O_{i,j}}{\sum_{i,j} w_{i,j} E_{i,j}}$
 
-### Dataset Description
+## Dataset Description
 The competition dataset comprises about 24000 student-written argumentative essays, each scored on a 1-to-6 scale (see the Holistic Scoring Rubric via [this link](https://storage.googleapis.com/kaggle-forum-message-attachments/2733927/20538/Rubric_%20Holistic%20Essay%20Scoring.pdf)), with the goal of predicting an essay’s score from its text. For file and field details: the `train.csv` (training data) includes `essay_id` (unique essay ID), `full_text` (complete essay content), and `score` (1-6 holistic score); `test.csv` (test data) has the same fields as `train.csv` but excludes `score` (the rerun test set has ~8k entries); `sample_submission.csv` (correct submission format) contains `essay_id` and the predicted `score` (1-6 scale).
+
+## Experimental Results
+
 
 
