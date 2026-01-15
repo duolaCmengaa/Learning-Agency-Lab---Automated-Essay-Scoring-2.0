@@ -31,5 +31,5 @@ The competition dataset comprises about 24000 student-written argumentative essa
 | Val Score | Private Score | Public Score |
 |---------|----------|--------|
 | 0.86463 | 0.83518    | 0.81906   |
-| 97.73%   | 98.04%    |  0.0347 M  
+
 
